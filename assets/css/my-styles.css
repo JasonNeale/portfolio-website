@@ -1,0 +1,143 @@
+.button-fix {
+    display: flex;
+    width: 100%;
+    align-content: center;
+    justify-content: space-between;
+}
+
+.icon-col-fix {
+    align-content: center;
+    padding: 0px;
+    padding-top: 3%;
+    max-width: 300px;
+}
+
+.sub-descript {
+    display: block;
+    line-height: 1.2;
+    width: 100%;
+    align-content: center;
+    text-align: center;
+    font-size: 1rem;
+    margin-right: 0 !important;
+}
+
+.sub-descript-2 {
+    display: block;
+    line-height: 1.2\5;
+    width: 100%;
+    align-content: center;
+    text-align: center;
+    font-size: 1.3rem;
+    margin-right: 0 !important;
+}
+
+.m-t-40 {
+    margin-top: 40px;
+}
+
+.m-t-60 {
+    margin-top: 60px;
+}
+
+.auto-space {
+    padding: 0 5% 0 5%;
+    justify-content: space-between;
+}
+
+.color-blue-1 {
+    color: #13293D;
+}
+
+.color-blue-2 {
+    color: #006494;
+}
+
+.color-blue-3 {
+    color: #247BA0;
+}
+
+.color-blue-4 {
+    color: #1B98E0;
+}
+
+.color-text-1 {
+    color: #FFF;
+}
+
+.color-text-2 {
+    color: #E8F1F2;
+}
+
+.color-text-2-alt {
+    color: #BEC6C6;
+}
+
+#footer {
+    background: #13293D;
+    color: #E8F1F2;
+}
+
+button, .button {
+    background:  #E8F1F2;
+    color: #006494;
+}
+
+button:hover, .button:hover {
+    background:  #BEC6C6;
+    font-weight: bold;
+    color: #006494;
+}
+
+hr {
+    border-top: thin solid #E8F1F2;
+    border-bottom: thin solid #E8F1F2;
+}
+
+ul.icons li a:hover {
+    color: #6BB5E0;
+}
+
+body.homepage #header:after {
+    background: #071019;
+}
+
+.hr-fix {
+    top: 1em;
+    margin-bottom: 2em;
+}
+
+.round-img {
+    border-radius: 50%;
+    border: 10px solid #1B98E0;
+}
+
+.pretty-link {
+    font-weight: bold;
+    color: #006494;
+}
+
+.icon-col {
+    display: flex;
+    flex-direction: row;
+    flex-flow: wrap;
+    justify-content: space-between;
+}
+
+.icon-wrapper {
+    padding: 10% 0 10% 0;
+    width: 33%; 
+    align-content: center;
+    text-align: center;
+}
+
+#nav>ul {
+    border-left: solid 1px #fff;
+    border-right: solid 1px #fff;
+}
+
+#nav>ul:before,
+#nav>ul:after {
+    border-top: solid 1px #fff;
+    border-bottom: solid 1px #fff;
+}
