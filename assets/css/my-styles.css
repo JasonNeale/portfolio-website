@@ -161,3 +161,23 @@ body.homepage #header:after {
 .project-box {
     height: 410px;
 }
+
+.link-button {
+    padding: 3%;
+    background: rgba(255, 255, 255, .03);
+    font-size: 2rem;
+    border: thin solid #FFF;
+    border-radius: 3%;
+}
+
+.link-button:hover {
+    background: rgba(255, 255, 255, .09);
+    font-size: 2rem;
+    color: #1B98E0;
+    border: thin solid #FFF;
+    border-radius: 3%;
+}
+
+a:hover {
+    color: #1B98E0;
+}
