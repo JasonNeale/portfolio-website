@@ -45,6 +45,10 @@
     justify-content: space-between;
 }
 
+.dis-f {
+    display: flex;
+}
+
 .color-blue-1 {
     color: #13293D;
 }
@@ -140,4 +144,12 @@ body.homepage #header:after {
 #nav>ul:after {
     border-top: solid 1px #fff;
     border-bottom: solid 1px #fff;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.project-box {
+    height: 410px;
 }
