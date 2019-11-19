@@ -181,3 +181,55 @@ body.homepage #header:after {
 a:hover {
     color: #1B98E0;
 }
+
+.j-c-c {
+    justify-content: center;
+}
+
+#header {
+    height: 100vh !important;
+}
+
+::-webkit-scrollbar {
+    width: 16px;
+    height: 16px;
+}
+
+::-webkit-scrollbar-button {
+    width: 0px;
+    height: 0px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #BEC6C6;
+    border: none;
+    border-radius: 50px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #006494;
+}
+
+::-webkit-scrollbar-thumb:active {
+    width: 16px;
+    height: 16px;
+    background: #006494;
+}
+
+::-webkit-scrollbar-track {
+    background: transparent;
+    border: none;
+    border-radius: 50px;
+}
+
+::-webkit-scrollbar-track:hover {
+    background: transparent;
+}
+
+::-webkit-scrollbar-track:active {
+    background: transparent;
+}
+
+::-webkit-scrollbar-corner {
+  background: transparent;
+}
